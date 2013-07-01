@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Mavis Example</title>
+        <meta name="viewport" content="width=device-width">
+
+        <style>
+            .twitter {
+                background: #00bef6;
+                color: #fff;
+            }
+
+            .facebook {
+                background: #3b5998;
+                color: #fff;
+            }
+
+            .google {
+                background: #e62332;
+                color: #fff;
+            }
+        </style>
+    </head>
+    <body class="container">
+
+        <p>Will changed input on 'twitter.com', 'facebook.com', or 'google.com'</p>
+        <input class="mavis" placeholder="Type something..." />
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script src="mavis.js"></script>
+        <script>
+            $('.mavis').mavis({
+                'twitter': /twitter\.com/i,
+                'facebook': /facebook\.com/i,
+                'google': /google\.com/i
+            });
+        </script>
+    </body>
+</html>
