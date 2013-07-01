@@ -1,0 +1,8 @@
+{
+  "name": "Mavis",
+  "version": "1.0.0",
+  "main": "mavis.js",
+  "dependencies": {
+    "jquery": ">=1.7.1"
+  }
+}
