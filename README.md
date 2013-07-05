@@ -2,6 +2,16 @@
 
 Mavis is a very simple jQuery plugin that takes an object of class/regex pairs. When applied to an `input` it will update the class when the regex value is matched.
 
+## Installation
+
+Mavis can be easily installed using [Bower](http://bower.io):
+
+```bash
+bower install jquery-mavis
+```
+
+It will be placed in `components/jquery-mavis`.
+
 ## Usage
 
 ```html
